@@ -1,0 +1,62 @@
+body{
+    font-family:"comic sans ms",sans-serif;
+    background-color: aqua;
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    margin: 0%;
+    
+
+}
+.image_div{
+    border: solid brown;
+    width: 300px;
+    padding: 3px;
+    border-radius: 15px;
+    float:left;
+    margin: 5px;
+    background-color: blueviolet;
+    
+    
+
+}
+.zoom{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+    border-radius: 15px;
+
+
+}
+.zoom img{
+    max-width:100% ;
+    max-height: 100%;
+    border-radius: 15px;
+    transition: 1s;
+    padding: 5px;
+    
+    
+
+}
+.zoom img:hover{
+    transform: scale(1.09,1.09);
+    border-radius: 15px;
+    box-shadow: 0 0 15px white;
+}
+.details{
+    font-size: 20px;
+    text-align: center;
+    color: bisque;
+    padding: 10px;
+}
+.details:hover{
+    transform: scale(1.09,1.09);
+    border-radius: 15px;
+
+}
+
